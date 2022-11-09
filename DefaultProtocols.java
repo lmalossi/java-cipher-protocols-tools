@@ -13,7 +13,6 @@ public class DefaultProtocols {
 
     SSLSocketFactory factory;
     try{
-      System.out.println("**** Testing with Default protocol");
       factory = (SSLSocketFactory) SSLSocketFactory.getDefault();
       SSLSocket socket = (SSLSocket)factory.createSocket();
 
