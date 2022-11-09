@@ -1,0 +1,14 @@
+Le 2 classi danno come output il protocolli supportati e le il protocollo scelto i cipher supportati
+
+Usage:
+compilare le 2 classi
+<path_to_java>/bin/javac ./DefaultProtocols.java
+<path_to_java>/bin/javac ./Ciphers.java
+
+lanciare i comandi
+<path_to_java>/bin/java DefaultProtocols
+
+<path_to_java>/bin/java Ciphers <protocollo>
+
+
+
